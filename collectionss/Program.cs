@@ -79,6 +79,7 @@ namespace Collactins
             Console.WriteLine("capacity ofb the list " + arrr.Capacity);//capacity increase by 4,8,16,32;
             int a = arrr.GetHashCode();
             Console.WriteLine(a);
+            Console.WriteLine("method m12 exicuted");
         }
     }
     public class Hashy
