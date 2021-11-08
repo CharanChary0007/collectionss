@@ -56,8 +56,8 @@ namespace Collactins
             arrr.Add(12.332214);
             foreach (var i in arrr)
                 Console.WriteLine(i);
-            //     Console.WriteLine("Sorted Array");Array cant be sortde as threr are diffrent type of data types;;;
-            //    arrr.Sort();
+          /*     Console.WriteLine("Sorted Array");Array cant be sortde as threr are diffrent type of data types;;;
+            //    arrr.Sort();*/
             foreach (var i in arrr)
                 Console.WriteLine(i);
             arrr.Reverse();
