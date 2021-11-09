@@ -56,8 +56,8 @@ namespace Collactins
             arrr.Add(12.332214);
             foreach (var i in arrr)
                 Console.WriteLine(i);
-            //     Console.WriteLine("Sorted Array");Array cant be sortde as threr are diffrent type of data types;;;
-            //    arrr.Sort();
+          /*     Console.WriteLine("Sorted Array");Array cant be sortde as threr are diffrent type of data types;;;
+            //    arrr.Sort();*/
             foreach (var i in arrr)
                 Console.WriteLine(i);
             arrr.Reverse();
@@ -79,6 +79,7 @@ namespace Collactins
             Console.WriteLine("capacity ofb the list " + arrr.Capacity);//capacity increase by 4,8,16,32;
             int a = arrr.GetHashCode();
             Console.WriteLine(a);
+            Console.WriteLine("method m12 exicuted");
         }
     }
     public class Hashy
